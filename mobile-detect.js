@@ -1,5 +1,5 @@
 // THIS FILE IS GENERATED - DO NOT EDIT!
-/*!mobile-detect v1.4.3 2018-09-08*/
+/*!mobile-detect v1.4.4 2019-02-28*/
 /*global module:false, define:false*/
 /*jshint latedef:false*/
 /*!@license Copyright 2013, Heinrich Goebl, License: MIT, see https://github.com/hgoebl/mobile-detect.js*/
@@ -35,6 +35,7 @@ define(function () {
         "Nintendo": "Nintendo (3DS|Switch)",
         "Amoi": "Amoi",
         "INQ": "INQ",
+        "OnePlus": "ONEPLUS",
         "GenericPhone": "Tapatalk|PDA;|SAGEM|\\bmmp\\b|pocket|\\bpsp\\b|symbian|Smartphone|smartfon|treo|up.browser|up.link|vodafone|\\bwap\\b|nokia|Series40|Series60|S60|SonyEricsson|N900|MAUI.*WAP.*Browser"
     },
     "tablets": {
@@ -728,7 +729,7 @@ define(function () {
          * The returned tablet (family or producer) is one of following keys:<br>
          * <br><tt>iPhone, BlackBerry, HTC, Nexus, Dell, Motorola, Samsung, LG, Sony, Asus,
          * NokiaLumia, Micromax, Palm, Vertu, Pantech, Fly, Wiko, iMobile, SimValley,
-         * Wolfgang, Alcatel, Nintendo, Amoi, INQ, GenericPhone</tt><br>
+         * Wolfgang, Alcatel, Nintendo, Amoi, INQ, OnePlus, GenericPhone</tt><br>
          * <br>
          * If the device is not detected by the regular expressions from Mobile-Detect, a test is made against
          * the patterns of <a href="http://detectmobilebrowsers.com/">detectmobilebrowsers.com</a>. If this test
@@ -985,7 +986,7 @@ define(function () {
     // should not be replaced by a completely new object - just overwrite existing methods
     MobileDetect._impl = impl;
     
-    MobileDetect.version = '1.4.3 2018-09-08';
+    MobileDetect.version = '1.4.4 2019-02-28';
 
     return MobileDetect;
 }); // end of call of define()
